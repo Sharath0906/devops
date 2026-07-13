@@ -1,0 +1,47 @@
+
+<html>
+	<head>
+	<title>User Registration Form</title>
+	<style>
+	body{
+		font-family:Arial,Sans-serif;
+		margin:20px;
+	}
+	form{
+		border:1px solid #ccc;
+		padding:20px;
+		width:300px;
+	}
+	input[type="text"],input[type="email"],input[type="tel"],input[type="submit"]{
+		width:100%;
+		padding:10px;
+		margin:5px 0;
+		box-sizing:border-box;
+	}
+	input[type="submit"]{
+		background-color:#4caf50;
+		color:white;
+		border:none;
+	}
+	input[type="submit"]:hover{
+		background-color:#45a049;
+	}
+	</style>
+	</head>
+	<body>
+		<h2>User Registration Form</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" required><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br>
+			<label for="tel">Phone:</label>
+			<input type="tel" id="tel" name="tel" required><br>
+			<input type="submit" value="submit">
+		</form>
+	</body>
+</html>
+
+
+
+
